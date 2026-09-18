@@ -1,0 +1,29 @@
+# Bibliotecas Python (instale com: pip3 install -r requirements.txt)
+pdf2image>=1.17.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+opencv-python>=4.9.0
+numpy>=1.26.0
+openpyxl>=3.1.5
+
+# ------------------------------------------------------------------
+# DEPENDÊNCIAS DE SISTEMA (não instaláveis via pip — são binários/pacotes do SO):
+#
+# 1) Poppler (necessário para o pdf2image converter PDF em imagem):
+#    Ubuntu/Debian: sudo apt install poppler-utils
+#
+# 2) Tesseract OCR (motor de OCR usado pelo pytesseract):
+#    Ubuntu/Debian: sudo apt install tesseract-ocr tesseract-ocr-por
+#    (o pacote "tesseract-ocr-por" adiciona o idioma português ao OCR)
+#
+# 3) Tkinter (interface gráfica de seleção de arquivos — geralmente já vem
+#    com o Python, mas em algumas instalações Linux precisa ser instalado):
+#    Ubuntu/Debian: sudo apt install python3-tk
+# ------------------------------------------------------------------
+
+
+# INSTALE O TESSERACT:
+# sudo apt install tesseract-ocr
+# tesseract --version
+# sudo apt install tesseract-ocr-por
+# tesseract --list-langs
