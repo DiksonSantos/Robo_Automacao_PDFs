@@ -1,7 +1,7 @@
 # Automação de Extração de Dados de Comprovantes Bancários (OCR)
 
 ## O problema
-[Nome/tipo do cliente, ex: "um órgão público" ou "um escritório de contabilidade"] processava manualmente dezenas de comprovantes de pagamento em PDF (Banco do Brasil e Caixa Econômica Federal) todo mês, digitando à mão data, valor, credor e número de empenho numa planilha de controle — um processo lento e sujeito a erro de digitação.
+[Nome/tipo do cliente, ex: "um órgão público" ou "um escritório de contabilidade de uma prefeitura"] processava manualmente dezenas de comprovantes de pagamento em PDF (Banco do Brasil e Caixa Econômica Federal) todo mês, digitando à mão data, valor, credor e número de empenho numa planilha de controle — um processo lento e sujeito a erro de digitação.
 
 ## A solução
 Desenvolvi uma ferramenta desktop em Python que:
@@ -12,14 +12,12 @@ Desenvolvi uma ferramenta desktop em Python que:
 - Grava tudo já estruturado direto numa planilha Excel (openpyxl), pronta para conferência e arquivamento
 
 ## Resultado
-- [Insira aqui, se souber: quantos comprovantes por mês, tempo economizado, erros de digitação eliminados]
 - Fim da digitação manual linha a linha desses dados
 
 ## Tecnologias
 Python · Tesseract OCR · OpenCV · pdf2image · openpyxl · Tkinter
 
-## Screenshot
-![Exemplo de correção](Correcao.png)
+
 
 ---
 *Projeto real, desenvolvido sob demanda para um cliente em 2023.*
